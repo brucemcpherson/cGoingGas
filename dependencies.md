@@ -1,5 +1,5 @@
 # Google Apps Script Project: cGoingGas
-This repo (cGoingGas) was automatically updated on 01 March 2016 11:53:22 GMT by GasGit
+This repo (cGoingGas) was automatically updated on 27 July 2016 10:35:18 BST by GasGit
 
 For more information see the [desktop liberation site](http://ramblings.mcpher.com/Home/excelquirks/drivesdk/gettinggithubready "desktop liberation") or [contact me on G+](https://plus.google.com/+BruceMcpherson "Bruce McPherson - GDE")
 ## Details for Apps Script project cGoingGas
