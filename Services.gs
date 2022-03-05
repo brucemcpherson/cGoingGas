@@ -20,16 +20,16 @@ var Services = (function(ns) {
   ns.setClass = function (serviceClass,serviceClassName) {
     
     // find out what kind of thing it is
-    var class = serviceClassName || serviceClass.toString();
+    var cls = serviceClassName || serviceClass.toString();
         
     // check its a proper name
-    if (!/^\w+$/.test(class)) {
-      throw 'service name' + class + ' is an invalid name';
+    if (!/^\w+$/.test(cls)) {
+      throw 'service name' + cls + ' is an invalid name';
     }
-    Logger.log(class);
+    Logger.log(cls);
     
     // this will be used in the other namespaces
-    ns.classes[class+'Service'] = serviceClass;
+    ns.classes[cls+'Service'] = serviceClass;
     return ns;
   };
   
